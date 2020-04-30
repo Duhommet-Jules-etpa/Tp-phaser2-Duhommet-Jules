@@ -575,7 +575,7 @@ var config = {
 			player.setVelocityX(0);
 			player.setVelocityY(0);
 		}
-		if(lv == 3){
+		if(lv == 1){
 	    if (pv == 2){
 	        pvtext.setText('pv: '+pv);
 	    }
@@ -613,6 +613,9 @@ var config = {
 			player.setVelocityX(0);
 			player.setVelocityY(0);
 		}
+ this.DeadBat;
+ this.DeadBat2;
+ this.DeadBat3;
 
 	}
 
